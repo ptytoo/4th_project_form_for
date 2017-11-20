@@ -1,0 +1,7 @@
+<h1>Tweets 수정</h1>
+<%= form_for(@tweet) do |f|%>
+  제목 : <%= f.text_field :title%>
+  내용 : <%= f.text_field :content%>
+  사진 : <%= f.text_field :photo_url%><%= f.file_field :photo_url %><br>
+  <%= f.submit "수정" %>
+<% end %>
