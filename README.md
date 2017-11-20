@@ -17,7 +17,7 @@ atom .
 #####새로운 vagrant#####
 git bash
 mkdir project2
-vagrant init ubuntu/xenial64 => Vagrantfile(설정 해줌 ex. prot설정)
+vagrant init ubuntu/xenial64 => Vagrantfile(설정 해줌 ex. port설정)
 vagrant up
 vagran ssh
 #가상머신 구동됨
